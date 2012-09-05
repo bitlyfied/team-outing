@@ -1,12 +1,12 @@
 <head>
-  <title>Team outing</title>
+  <title>Team Outings</title>
 </head>
 
 <body>
-  {{> hello}}
+  {{> outings}}
 </body>
 
-<template name="hello">
-  <h1>Hello World!</h1>
-  <ul>{{#each outings}}<li>{{name}}</li> {{/each}}</ul>
+<template name="outings">
+  <h1>Outings</h1>
+  <ul>{{#each outings}} <li>{{name}}</li> {{/each}}</ul>
 </template>
